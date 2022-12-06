@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        
+        <table id="Table">
+        <div class="Colums" >
+           <tr id="Num1"><th style="font-size:20px; text-align: center;"  colspan="2" ><span style="color:rgb(0, 38, 255)" id="H1" >ĐĂNG KÝ HỌC VIÊN</span></th></tr>
+        <tr>
+        <td><span style="color:rgb(0, 38, 255)">Họ và tên</span></td>  
+       <td> <input type="text" id="Name" /></td>
+        </tr>
+        <tr>
+            <td><span style="color:rgb(0, 38, 255)">Ngày sinh</span></td>
+            <td><input type="text" id="BD" /></td>
+        </tr>
+        <tr>
+            <td><span style="color:rgb(0, 38, 255)">Giới tính</span></td>
+            <td>
+                <input type="radio"/>Nam
+                <input type="radio"/>Nữ
+            </td>
+        </tr>
+        <tr>
+            <td ><span style="color:rgb(0, 38, 255)">Địa chỉ</span></td>
+            <td><input type="text" id="Stress" /></td>
+        </tr>
+        <tr>
+        <td><span style="color:rgb(0, 38, 255)">Lớp</span></td>
+        <td>
+            <select>
+                <option>--Chosse class--</option>
+                <option>IBSK1D1</option>
+                <option>IBSK1D2</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td><span style="color:rgb(0, 38, 255)">Email</span></td>
+            <td><input type="text" id="Email"/></td>
+        </tr>
+        <tr>
+            <td><span style="color:rgb(0, 38, 255)">Điện thoại</span></td>
+            <td><input type="text" id="Number"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="Submit">
+                <input type="submit" value="Đăng ký"/>
+                <input type="submit" value="Nhập lại"/>
+            </td>
+        </tr>
+        </div>
+        </table>
+     <style>
+        #Table {
+            width:600px;
+            background-color: rgb(0, 238, 255);
+        }
+        #Name {
+            width:300px;
+        }
+        #BD {
+            width:120px;
+        }
+        #Stress {
+            width:200px;
+            height:60px 
+        }
+        #Num1 {
+            background-color:rgb(240, 192, 3);
+            text-align:left
+        }
+     </style>
+    </form>
+</body>
+</html>
