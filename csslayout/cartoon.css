@@ -1,0 +1,49 @@
+body{
+    margin:0;
+}
+#header{
+    background:white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+
+
+}
+#main{text-align: center;
+    background:rgb(185, 183, 183) ;
+    height:1200px;
+    width : 70%;
+    float:right;
+}
+#sidebar{text-align: center;
+    background:gray;
+    height : 1200px;
+    width:30%;
+    float:right;  
+    
+}
+#footer{text-align: center;
+    background:rgb(190, 190, 190);
+    height :60px;
+    width:100%;
+    clear:both
+    
+}
+
+    
+
+#nav{text-align: right;
+    
+     background:rgb(120, 117, 117);
+    height:100px;
+    width:100%
+    
+    
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+    body {
+        color: yellow;
+    }
+}
